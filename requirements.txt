@@ -1,0 +1,2 @@
+multi_agent_orchestrator==0.1.2
+python-dotenv==1.0.1
