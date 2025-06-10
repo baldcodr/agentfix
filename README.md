@@ -15,11 +15,11 @@ To get started with AgentFix, follow these steps to install the required package
 
 2. Create and activate a virtual environment (optional but recommended):
     ```sh
-    virtualenv -p python3.13 venv
+    virtualenv -p python3.11 venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required packages:
+3. Install the required packages (including boto3 for AWS access):
     ```sh
     pip install -r requirements.txt
     ```
@@ -36,7 +36,7 @@ To run the project locally, follow these steps:
     python main.py
     ```
 
-3. Follow the prompts in the terminal to interact with the Multi-Agent system by inputing a sample log data as below.:
+3. Follow the prompts in the terminal to interact with the Multi-Agent system by inputing a sample log data as shown below:
     ```
     {"source": "app_log", "error_code": 500, "message": "Database timeout"}
     ```
